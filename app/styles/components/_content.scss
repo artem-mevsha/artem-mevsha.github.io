@@ -1,0 +1,53 @@
+.content {
+  width: 66.65%;
+  padding: px2rem($container-padding-vert) px2rem($container-padding-hor);
+
+  &__item {
+    margin-bottom: px2rem($spacing-big);
+  }
+  &__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__icon {
+    display: block;
+    margin-left: -#{px2rem(20)};
+    margin-right: px2rem(30);
+    width: px2rem(85);
+    height: px2rem(85);
+    background: $icon-bg;
+    border-radius: 50%;
+    font-size: px2rem(35);
+    text-align: center;
+    line-height: px2rem(88);
+    color: $title-color-dark;
+  }
+  &__list {
+    padding-bottom: px2rem($spacing-default);
+  }
+}
+
+.list {
+  &__item {
+    margin-bottom: px2rem($spacing-big);
+  }
+  &__title {
+    &--left {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &--right {
+      display: inline-block;
+      vertical-align: middle;
+      color: $label-color;
+      margin-left: px2rem($spacing-default);
+      padding-left: px2rem($spacing-default);
+      border-left: 2px solid $title-border;
+    }
+  }
+  &__text {
+    margin-bottom: px2rem($spacing-big);
+    font-weight: 500;
+  }
+}

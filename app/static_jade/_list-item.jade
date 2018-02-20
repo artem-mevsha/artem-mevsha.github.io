@@ -1,0 +1,8 @@
+mixin listItem(title, date, text)
+  .list__item
+    h3.list__title
+      span.list__title--left= title
+      span.list__title--right=date
+    .list__text
+      each paragraph in text
+        p= paragraph

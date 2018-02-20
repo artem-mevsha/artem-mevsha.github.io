@@ -1,0 +1,32 @@
+{
+  "name": "artem-mevsha.github.io",
+  "description": "Portfolio website",
+  "author": "Artem Mevsha",
+  "version": "0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artem-mevsha/artem-mevsha.github.io"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "node-normalize-scss": "^3.0.0",
+    "sass-autoprefixer": "^1.0.1",
+    "sass-brunch": "^2.10.4"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "^6.0.4",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "jaded-brunch": "^2.3.0",
+    "javascript-brunch": "^2.0.0",
+    "jshint-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.0"
+  }
+}
