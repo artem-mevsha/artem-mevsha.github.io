@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $raleway;
+  font-size: #{$real-font-size}px;
+  color: $default-color;
+  background: $default-bg;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: $page-width;
+  width: 100%;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+a {
+  color: $link-color;
+  text-decoration: underline;
+  &:hover,
+  &:focus {
+    color: $link-color-hover;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  margin: px2rem($spacing-default / 2) 0 px2rem($spacing-default);
+}
+
+h1 {
+  font-size: px2rem($h1);
+  color: $title-color;
+}
+
+h2 {
+  font-size: px2rem($h2);
+  color: $title-color;
+  margin: px2rem($spacing-default / 2) 0 px2rem($spacing-default);
+}
+
+h3 {
+  font-size: px2rem($h3);
+  color: $title-color-darker;
+  margin: px2rem($spacing-default / 2) 0 px2rem($spacing-default);
+}
+
+h4 {
+  font-size: px2rem($h4);
+  color: $title-color-dark;
+  margin: px2rem($spacing-default / 2) 0 px2rem($spacing-default);
+}
+
+h5 {
+  font-size: px2rem($h5);
+  color: $title-color-dark;
+  margin: px2rem($spacing-default / 2) 0 px2rem($spacing-default);
+}
+
+p {
+  margin: 0 0 px2rem($spacing-default);
+  line-height: 1.42;
+  letter-spacing: 1px;
+}
