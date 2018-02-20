@@ -1,6 +1,6 @@
 module.exports = {
     paths: {
-        public: "./public"
+        public: "./"
     },
     files: {
         javascripts: {
