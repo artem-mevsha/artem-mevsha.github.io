@@ -1,6 +1,6 @@
 # lazy-static-site-gen
 
-This is a simple skeleton of static site generator.
+This is a simple skeleton of static site generator. Modified to use scss instead of stylus.
 
 Uses [Brunch](http://brunch.io) as build system.
 
@@ -24,7 +24,7 @@ static-site-gen
     │      _head.jade
     │
     └─styles
-            style.styl
+            style.scss
 ```
 
 - package.json - npm settings with all required dependencies for this skeleton.
@@ -33,11 +33,11 @@ static-site-gen
     - **assets** - Everything inside is copied as it is.
     - **js** - Contains JS code that will be concatenated into `js/app.js`
         - Each js file will be available as separated module which can be loaded via `require`
-    - **styles** - Contains _stylus_ CSS templates which are concatenated into `style.css`
+    - **styles** - Contains _scss_ CSS templates which are concatenated into `style.css`
     - **static_jade** - Contains [Jade](http://jade-lang.com/) templates.
         - `index.jade` - Will be parsed into `index.html`
         - `_head.jade` - Will be ignored, but can be included by other templates. Files starting with `_` are ignored.
-    - **styles** - Contains [Stylus](https://github.com/stylus/stylus) CSS templates which are concatenated into `style.css`.
+    - **styles** - Contains [Sass](https://github.com/sass/sass) CSS templates which are concatenated into `style.css`.
 
 ## Usage
 

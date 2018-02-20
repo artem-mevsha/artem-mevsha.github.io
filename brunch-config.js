@@ -1,4 +1,7 @@
 module.exports = {
+    paths: {
+        public: "./docs"
+    },
     files: {
         javascripts: {
             joinTo: 'js/app.js'
