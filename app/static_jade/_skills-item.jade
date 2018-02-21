@@ -1,6 +1,6 @@
 mixin skillsItem(title, width, valueColor)
   .skills__item
     .skills__title= title
-    .skills__progress.progress
+    .skills__progress
       .progress
         .progress__value(class=(valueColor ? 'progress__value--#{valueColor}' : ''), style="width: #{width}%;")

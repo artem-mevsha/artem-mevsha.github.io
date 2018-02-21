@@ -24,7 +24,8 @@
     color: $title-color-dark;
   }
   &__list {
-    padding-bottom: px2rem($spacing-default);
+    @include clearfix;
+    margin-bottom: px2rem($spacing-default);
   }
 }
 
@@ -33,13 +34,12 @@
     margin-bottom: px2rem($spacing-big);
   }
   &__title {
-    &--left {
-      display: inline-block;
-      vertical-align: middle;
-    }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     &--right {
-      display: inline-block;
-      vertical-align: middle;
+      min-width: px2rem(250);
       color: $label-color;
       margin-left: px2rem($spacing-default);
       padding-left: px2rem($spacing-default);
@@ -47,7 +47,55 @@
     }
   }
   &__text {
-    margin-bottom: px2rem($spacing-big);
+    margin-bottom: px2rem($spacing-default);
     font-weight: 500;
+  }
+}
+
+.skills {
+  position: relative;
+  margin-top: px2rem($spacing-big);
+  margin-left: -#{px2rem($spacing-default)};
+  margin-right: -#{px2rem($spacing-default)};
+  &__half {
+    width: 50%;
+    float: left;
+    padding: 0 px2rem($spacing-default);
+  }
+  &__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: px2rem($spacing-default);
+  }
+  &__title {
+    width: 64%;
+    font-size: px2rem(18);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $label-color;
+  }
+  &__progress {
+    width: 50%;
+    padding-left: px2rem($spacing-default);
+  }
+}
+
+.progress {
+  position: relative;
+  width: 100%;
+  height: px2rem(15);
+  background: $icon-bg;
+  border-radius: 10px;
+  overflow: hidden;
+  &__value {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $label-color;
+    &--light {
+      background: $label-color2;
+    }
   }
 }
