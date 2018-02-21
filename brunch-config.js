@@ -1,13 +1,13 @@
 module.exports = {
     paths: {
-        public: "./docs"
+        public: "./"
     },
     files: {
         javascripts: {
             joinTo: 'js/app.js'
         },
         stylesheets: {
-            joinTo: 'style.css'
+            joinTo: 'css/style.css'
         },
         templates: {
             joinTo: {
