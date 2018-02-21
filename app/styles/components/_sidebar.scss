@@ -10,6 +10,10 @@
     color: $sidebar-color;
   }
 
+  a:hover {
+    color: $label-color;
+  }
+
   &__title {
     margin-bottom: 0;
     text-align: center;
@@ -25,7 +29,7 @@
   &__photo {
     display: block;
     width: 100%;
-    max-width: 282px;
+    max-width: 250px;
     margin: 0 auto px2rem($spacing-big);
     border-radius: 50%;
   }
