@@ -4,5 +4,10 @@ import $ from 'jquery';
 // import fontawesome from '@fortawesome/fontawesome';
 
 $(() => {
-  console.log('1');
+  // handle click on links
+  $('a').on('click', (event) => ga('send', 'event', {
+    eventCategory: 'link',
+    eventAction: 'click',
+    eventLabel: event.target.href
+  }));
 });
