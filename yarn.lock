@@ -961,13 +961,6 @@ detect-indent@^4.0.0:
   dependencies:
     repeating "^2.0.0"
 
-digest-brunch@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/digest-brunch/-/digest-brunch-1.6.0.tgz#0640ea9da90aeacd3c8b591c2458607823bb8abf"
-  dependencies:
-    glob "^7.0.5"
-    toposort "^1.0.0"
-
 dom-serializer@0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
@@ -2389,10 +2382,6 @@ tar@^2.0.0:
 to-fast-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
-
-toposort@^1.0.0:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/toposort/-/toposort-1.0.6.tgz#c31748e55d210effc00fdcdc7d6e68d7d7bb9cec"
 
 tough-cookie@~2.3.3:
   version "2.3.3"
