@@ -5,7 +5,9 @@ $raleway: 'Raleway', sans-serif;
 $real-font-size: 14;
 $page-width: 1240px;
 $container-padding-vert: 32;
+$container-padding-vert-small: 16;
 $container-padding-hor: 46;
+$container-padding-hor-small: 30;
 $spacing-default: 20;
 $spacing-big: 40;
 $h1: 36;
@@ -17,10 +19,10 @@ $h5: 12;
 // media
 $small-screen-up: 601px !default;
 $medium-screen-up: 993px !default;
-$large-screen-up: 1201px !default;
+$large-screen-up: 1241px !default;
 $small-screen: 600px !default;
 $medium-screen: 992px !default;
-$large-screen: 1200px !default;
+$large-screen: 1240px !default;
 
 // colors
 $default-color: #767676;

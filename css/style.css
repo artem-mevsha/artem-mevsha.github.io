@@ -3738,6 +3738,61 @@ p {
     .progress__value--light {
       background: #44b134; }
 
+@media only screen and (max-width: 1240px) and (min-width: 993px) {
+  /* line 7, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .sidebar {
+    width: 28.57rem; } }
+
+@media only screen and (max-width: 992px) {
+  /* line 14, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  html,
+  body {
+    font-size: 13px; }
+  /* line 18, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .sidebar {
+    width: 21.43rem; }
+  /* line 21, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .sidebar,
+  .content {
+    padding: 1.14rem 2.14rem; }
+  /* line 26, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .profile__item--main {
+    margin-bottom: 2.86rem; }
+  /* line 31, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .content__icon {
+    width: 4.29rem;
+    height: 4.29rem;
+    line-height: 4.79rem;
+    font-size: 2.14rem;
+    margin-right: 1.07rem; }
+  /* line 38, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .content__item {
+    margin-bottom: 0; }
+  /* line 43, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .list__title {
+    flex-wrap: wrap; }
+    /* line 45, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+    .list__title--left {
+      width: 100%; }
+    /* line 48, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+    .list__title--right {
+      margin-top: 0.71rem;
+      border-left: none;
+      margin-left: 0;
+      padding-left: 0; }
+  /* line 57, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .skills__half {
+    width: 100%; } }
+
+@media only screen and (max-width: 600px) {
+  /* line 70, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .container {
+    display: block; }
+  /* line 73, /Users/artem/work/artem-mevsha@github.io/app/styles/components/_media.scss */
+  .sidebar,
+  .content {
+    width: 100%; } }
+
 
 
 /*# sourceMappingURL=css/stylecss.map*/

@@ -1,16 +1,63 @@
-// extra large and up ( > 1200px)
+// extra large and up ( > 1240px)
 @media only screen and (min-width : $large-screen-up) {
-  
 }
 
-// large only (> 993px && < 1200px)
+// large only (> 993px && < 1240px)
 @media only screen and (max-width: $large-screen) and (min-width: $medium-screen-up) {
-
+  .sidebar {
+    width: px2rem(400);
+  }
 }
 
 // medium and down (< 992px)
 @media only screen and (max-width : $medium-screen) {
-
+  html,
+  body {
+    font-size: 13px;
+  }
+  .sidebar {
+    width: px2rem(300);
+  }
+  .sidebar,
+  .content {
+    padding: px2rem($container-padding-vert-small) px2rem($container-padding-hor-small);
+  }
+  .profile {
+    &__item--main {
+      margin-bottom: px2rem($spacing-big);
+    } 
+  }
+  .content {
+    &__icon {
+      width: px2rem(60);
+      height: px2rem(60);
+      line-height: px2rem(67);
+      font-size: px2rem(30);
+      margin-right: px2rem(15);
+    }
+    &__item {
+      margin-bottom: 0;
+    }
+  }
+  .list {
+    &__title {
+      flex-wrap: wrap;
+      &--left {
+        width: 100%;
+      }
+      &--right {
+        margin-top: px2rem(10);
+        border-left: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+  }
+  .skills {
+    &__half {
+      width: 100%;
+    }
+  }
 }
 
 // medium only (> 601px && < 992px)
@@ -20,7 +67,13 @@
   
 // small and down (< 600px)
 @media only screen and (max-width : $small-screen) {
-
+  .container {
+    display: block;
+  }
+  .sidebar,
+  .content {
+    width: 100%;
+  }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
