@@ -23,6 +23,9 @@
     padding: px2rem($container-padding-vert-small) px2rem($container-padding-hor-small);
   }
   .profile {
+    &__photo {
+      max-width: 180px;
+    }
     &__item--main {
       margin-bottom: px2rem($spacing-big);
     } 
