@@ -5,9 +5,4 @@ import $ from 'jquery';
 
 $(() => {
   // handle click on links
-  $('a').on('click', (event) => ga('send', 'event', {
-    eventCategory: 'link',
-    eventAction: 'click',
-    eventLabel: event.target.href
-  }));
 });

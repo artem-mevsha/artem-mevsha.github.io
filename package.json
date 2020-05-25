@@ -2,14 +2,15 @@
   "name": "artem-mevsha.github.io",
   "description": "Portfolio website",
   "author": "Artem Mevsha",
-  "version": "0.1",
+  "version": "0.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/artem-mevsha/artem-mevsha.github.io"
   },
   "scripts": {
-    "start": "brunch watch --server"
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.3",
